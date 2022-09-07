@@ -8,6 +8,6 @@
   "type": "commonjs",
   "main": "./index.js",
   "dependencies": {
-    "@domapi/data": "*"
+    "@domapi/data": "^0.0.1"
   }
 }
