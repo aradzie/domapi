@@ -1,0 +1,22 @@
+"use strict";
+module.exports = {
+  createImageBitmap: globalThis.createImageBitmap,
+  crypto: globalThis.crypto,
+  customElements: globalThis.customElements,
+  devicePixelRatio: globalThis.devicePixelRatio,
+  document: globalThis.document,
+  fetch: globalThis.fetch,
+  history: globalThis.history,
+  indexedDB: globalThis.indexedDB,
+  localStorage: globalThis.localStorage,
+  location: globalThis.location,
+  navigator: globalThis.navigator,
+  performance: globalThis.performance,
+  sessionStorage: globalThis.sessionStorage,
+  structuredClone: globalThis.structuredClone,
+  visualViewport: globalThis.visualViewport,
+  window: globalThis.window,
+  isBrowser: false,
+  isServer: true,
+  runtime: "server",
+};

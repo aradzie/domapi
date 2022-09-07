@@ -1,0 +1,16 @@
+{
+  "name": "@domapi/rtc",
+  "version": "0.0.3",
+  "description": "Modularized DOM API",
+  "author": "Aliaksandr Radzivanovich",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aradzie/domapi.git",
+    "directory": "packages/rtc-api"
+  },
+  "types": "./index.d.ts",
+  "main": "./index.js",
+  "browser": "./browser.js",
+  "sideEffects": false
+}
