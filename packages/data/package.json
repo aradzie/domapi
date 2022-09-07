@@ -1,0 +1,13 @@
+{
+  "name": "@domapi/data",
+  "version": "0.0.1",
+  "description": "Modularized DOM API",
+  "author": "Aliaksandr Radzivanovich",
+  "license": "MIT",
+  "type": "commonjs",
+  "types": "./index.d.ts",
+  "main": "./index.js",
+  "scripts": {
+    "compile": "tsc"
+  }
+}

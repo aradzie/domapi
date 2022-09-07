@@ -1,0 +1,12 @@
+node_modules/
+lib/
+lib-esm/
+lib-cjs/
+build/
+tmp/
+.vscode/
+.idea/
+*.tsbuildinfo
+*.log
+*~
+.npmrc

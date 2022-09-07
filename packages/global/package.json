@@ -1,0 +1,11 @@
+{
+  "name": "@domapi/global",
+  "version": "0.0.1",
+  "description": "Modularized DOP API",
+  "author": "Aliaskandr Radzivanovich",
+  "license": "MIT",
+  "type": "commonjs",
+  "types": "./index.d.ts",
+  "main": "./index.js",
+  "browser": "./browser.js"
+}

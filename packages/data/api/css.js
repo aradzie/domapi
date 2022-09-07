@@ -1,0 +1,38 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.cssApi = void 0;
+exports.cssApi = [
+    "CaretPosition",
+    "CSS",
+    "CSS2Properties",
+    "CSSAnimation",
+    "CSSConditionRule",
+    "CSSCounterStyleRule",
+    "CSSFontFaceRule",
+    "CSSFontFeatureValuesRule",
+    "CSSGroupingRule",
+    "CSSImportRule",
+    "CSSKeyframeRule",
+    "CSSKeyframesRule",
+    "CSSLayerBlockRule",
+    "CSSLayerStatementRule",
+    "CSSMediaRule",
+    "CSSNamespaceRule",
+    "CSSPageRule",
+    "CSSRule",
+    "CSSRuleList",
+    "CSSStyleDeclaration",
+    "CSSStyleRule",
+    "CSSStyleSheet",
+    "CSSSupportsRule",
+    "CSSTransition",
+    "FontFace",
+    "FontFaceSet",
+    "FontFaceSetLoadEvent",
+    "FontFaceSource",
+    "MediaQueryList",
+    "MediaQueryListEvent",
+    "StyleSheet",
+    "StyleSheetList",
+];
+//# sourceMappingURL=css.js.map
