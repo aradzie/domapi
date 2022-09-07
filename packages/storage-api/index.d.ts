@@ -1,0 +1,5 @@
+export {
+  Storage,
+  StorageEvent,
+  StorageManager,
+};

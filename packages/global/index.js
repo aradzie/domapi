@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.window = undefined;
-exports.document = undefined;
-exports.location = undefined;
-exports.history = undefined;
-exports.navigator = undefined;
+exports.window = globalThis.window;
+exports.document = globalThis.document;
+exports.location = globalThis.location;
+exports.history = globalThis.history;
+exports.navigator = globalThis.navigator;
 exports.isBrowser = false;
 exports.isServer = true;
 exports.runtime = "server";

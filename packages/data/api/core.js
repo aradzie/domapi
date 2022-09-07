@@ -1,49 +1,16 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.coreApi = void 0;
+const css_js_1 = require("./css.js");
+const dom_js_1 = require("./dom.js");
+const html_js_1 = require("./html.js");
+const svg_js_1 = require("./svg.js");
+const xml_js_1 = require("./xml.js");
 exports.coreApi = [
-    "AbstractRange",
-    "Attr",
-    "CDATASection",
-    "CharacterData",
-    "Comment",
-    "CustomEvent",
-    "DOMException",
-    "DOMImplementation",
-    "DOMMatrix",
-    "DOMMatrixReadOnly",
-    "DOMParser",
-    "DOMPoint",
-    "DOMPointReadOnly",
-    "DOMQuad",
-    "DOMRect",
-    "DOMRectList",
-    "DOMRectReadOnly",
-    "DOMRequest",
-    "DOMStringList",
-    "DOMStringMap",
-    "DOMTokenList",
-    "Document",
-    "DocumentFragment",
-    "DocumentType",
-    "Element",
-    "Event",
-    "EventTarget",
-    "FormData",
-    "FormDataEvent",
-    "HTMLCollection",
-    "MutationEvent",
-    "MutationObserver",
-    "MutationRecord",
-    "NamedNodeMap",
-    "Node",
-    "NodeFilter",
-    "NodeIterator",
-    "NodeList",
-    "ProcessingInstruction",
-    "Range",
-    "StaticRange",
-    "Text",
-    "TreeWalker",
+    ...dom_js_1.domApi,
+    ...html_js_1.htmlApi,
+    ...svg_js_1.svgApi,
+    ...xml_js_1.xmlApi,
+    ...css_js_1.cssApi,
 ];
 //# sourceMappingURL=core.js.map

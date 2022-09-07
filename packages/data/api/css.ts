@@ -29,7 +29,6 @@ export const cssApi: readonly string[] = [
   "FontFaceSource",
   "MediaQueryList",
   "MediaQueryListEvent",
-
   "StyleSheet",
   "StyleSheetList",
 ];

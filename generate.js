@@ -7,26 +7,26 @@ const { resolve } = require("node:path");
 const generate = (key, types) => {
   const browserJsLines = [];
   const indexJsLines = [];
-  const indexDTsLines = [];
+  const indexDtsLines = [];
   browserJsLines.push(`export {\n`);
-  indexDTsLines.push(`export {\n`);
+  indexDtsLines.push(`export {\n`);
   for (const type of types) {
     browserJsLines.push(`  ${type},\n`);
     indexJsLines.push(`export class ${type} {}\n`);
-    indexDTsLines.push(`  ${type},\n`);
+    indexDtsLines.push(`  ${type},\n`);
   }
   browserJsLines.push(`};\n`);
-  indexDTsLines.push(`};\n`);
+  indexDtsLines.push(`};\n`);
 
-  const dir = resolve(__dirname, "..", `${key}-api`);
+  const dir = resolve(__dirname, "packages", `${key}-api`);
   mkdirSync(dir, { recursive: true });
   writeFileSync(`${dir}/browser.js`, browserJsLines.join(""));
   writeFileSync(`${dir}/index.js`, indexJsLines.join(""));
-  writeFileSync(`${dir}/index.d.ts`, indexDTsLines.join(""));
+  writeFileSync(`${dir}/index.d.ts`, indexDtsLines.join(""));
 };
 
 for (const [key, types] of Object.entries(api)) {
-  if (["core", "html", "css", "svg"].includes(key)) {
+  if (["core", "fetch", "xhr", "storage", "websocket"].includes(key)) {
     generate(key, types);
   }
 }

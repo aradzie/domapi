@@ -1,6 +1,5 @@
 {
-  "private": true,
-  "name": "@domapi/generate",
+  "name": "@domapi/fetch",
   "version": "0.0.2",
   "description": "Modularized DOM API",
   "author": "Aliaskandr Radzivanovich",
@@ -8,11 +7,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/aradzie/domapi.git",
-    "directory": "packages/generate"
+    "directory": "packages/fetch-api"
   },
   "type": "commonjs",
+  "types": "./index.d.ts",
   "main": "./index.js",
-  "dependencies": {
-    "@domapi/data": "^0.0.2"
-  }
+  "browser": "./browser.js"
 }
