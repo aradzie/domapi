@@ -1,6 +1,6 @@
 {
   "name": "@domapi/data",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Modularized DOM API",
   "author": "Aliaksandr Radzivanovich",
   "license": "MIT",
