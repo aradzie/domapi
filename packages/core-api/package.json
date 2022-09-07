@@ -1,0 +1,16 @@
+{
+  "name": "@domapi/core",
+  "version": "0.0.1",
+  "description": "Modularized DOM API",
+  "author": "Aliaskandr Radzivanovich",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aradzie/domapi.git",
+    "directory": "packages/core-api"
+  },
+  "type": "commonjs",
+  "types": "./index.d.ts",
+  "main": "./index.js",
+  "browser": "./browser.js"
+}

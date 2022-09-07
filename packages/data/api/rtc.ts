@@ -1,0 +1,17 @@
+export const rtcApi: readonly string[] = [
+  "RTCCertificate",
+  "RTCDTMFSender",
+  "RTCDTMFToneChangeEvent",
+  "RTCDataChannel",
+  "RTCDataChannelEvent",
+  "RTCDtlsTransport",
+  "RTCIceCandidate",
+  "RTCPeerConnection",
+  "RTCPeerConnectionIceEvent",
+  "RTCRtpReceiver",
+  "RTCRtpSender",
+  "RTCRtpTransceiver",
+  "RTCSessionDescription",
+  "RTCStatsReport",
+  "RTCTrackEvent",
+];
