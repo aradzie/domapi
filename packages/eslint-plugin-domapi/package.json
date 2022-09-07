@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-domapi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Modularized DOM API",
   "author": "Aliaksandr Radzivanovich",
   "license": "MIT",
