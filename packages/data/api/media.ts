@@ -17,7 +17,6 @@ export const mediaApi = [
   "MediaRecorder",
   "MediaRecorderErrorEvent",
   "MediaSession",
-
   "MediaStream",
   "MediaStreamEvent",
   "MediaStreamTrack",

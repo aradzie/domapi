@@ -6,15 +6,10 @@
   "author": "Aliaksandr Radzivanovich",
   "license": "MIT",
   "scripts": {
-    "compile": "webpack"
+    "compile": "tsc && webpack"
   },
   "dependencies": {
-    "@domapi/core": "^0.0.5",
-    "@domapi/fetch": "^0.0.5",
-    "@domapi/file": "^0.0.5",
-    "@domapi/global": "^0.0.5",
-    "@domapi/storage": "^0.0.5",
-    "@domapi/xhr": "^0.0.5"
+    "@domapi/global": "^0.0.5"
   },
   "devDependencies": {
     "ts-loader": "^9.3.1",

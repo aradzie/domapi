@@ -1,5 +1,0 @@
-export {
-  ResizeObserver,
-  ResizeObserverEntry,
-  ResizeObserverSize,
-};

@@ -1,5 +1,0 @@
-export {
-  Clipboard,
-  ClipboardEvent,
-  ClipboardItem,
-};

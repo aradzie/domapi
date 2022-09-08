@@ -11,6 +11,9 @@ const generate = (key, types) => {
   browserJsLines.push(`export {\n`);
   indexJsLines.push(`"use strict";\n`);
   indexJsLines.push(`exports = {\n`);
+  // indexDtsLines.push(`/// <reference lib="dom" />\n`);
+  // indexDtsLines.push(`/// <reference lib="dom.iterable" />\n`);
+  // indexDtsLines.push(`\n`);
   indexDtsLines.push(`export {\n`);
   for (const type of types) {
     browserJsLines.push(`  ${type},\n`);
@@ -31,7 +34,7 @@ const generate = (key, types) => {
     JSON.stringify(
       {
         name: `@domapi/${key}`,
-        version: "0.0.3",
+        version: "0.0.5",
         description: "Modularized DOM API",
         author: "Aliaksandr Radzivanovich",
         license: "MIT",

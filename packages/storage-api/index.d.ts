@@ -1,5 +1,0 @@
-export {
-  Storage,
-  StorageEvent,
-  StorageManager,
-};

@@ -1,5 +1,0 @@
-export {
-  CloseEvent,
-  MessageEvent,
-  WebSocket,
-};

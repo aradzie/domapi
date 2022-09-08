@@ -9,8 +9,16 @@
     "url": "https://github.com/aradzie/domapi.git",
     "directory": "packages/global"
   },
-  "types": "./index.d.ts",
-  "main": "./index.js",
-  "browser": "./browser.js",
-  "sideEffects": false
+  "main": "./lib-cjs/index.js",
+  "module": "./lib-esm/index.js",
+  "types": "./lib-esm/index.d.ts",
+  "browser": {
+    "./lib-cjs/env.js": "./lib-esm/env.browser.js",
+    "./lib-esm/env.js": "./lib-esm/env.browser.js"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "precompile": "rm -fr lib-cjs && rm -fr lib-esm",
+    "compile": "tsc -b tsconfig.json && tsc -b tsconfig-esm.json"
+  }
 }
