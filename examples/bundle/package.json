@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@domapi/example",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Modularized DOM API",
   "author": "Aliaksandr Radzivanovich",
   "license": "MIT",
@@ -9,12 +9,12 @@
     "compile": "webpack"
   },
   "dependencies": {
-    "@domapi/core": "*",
-    "@domapi/fetch": "*",
-    "@domapi/file": "*",
-    "@domapi/global": "*",
-    "@domapi/storage": "*",
-    "@domapi/xhr": "*"
+    "@domapi/core": "^0.0.4",
+    "@domapi/fetch": "^0.0.4",
+    "@domapi/file": "^0.0.4",
+    "@domapi/global": "^0.0.4",
+    "@domapi/storage": "^0.0.4",
+    "@domapi/xhr": "^0.0.4"
   },
   "devDependencies": {
     "ts-loader": "^9.3.1",

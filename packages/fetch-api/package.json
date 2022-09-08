@@ -1,6 +1,6 @@
 {
   "name": "@domapi/fetch",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Modularized DOM API",
   "author": "Aliaksandr Radzivanovich",
   "license": "MIT",
