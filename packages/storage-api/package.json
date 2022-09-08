@@ -1,6 +1,6 @@
 {
   "name": "@domapi/storage",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Modularized DOM API",
   "author": "Aliaksandr Radzivanovich",
   "license": "MIT",
