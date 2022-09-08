@@ -5,6 +5,7 @@ console.log({ isBrowser, isServer, runtime });
 
 if (isBrowser) {
   console.log("is browser runtime");
+  console.log(window.location);
   window.addEventListener("error", (ev) => {
     console.error(ev);
   });
